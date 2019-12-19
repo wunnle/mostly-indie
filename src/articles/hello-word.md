@@ -6,4 +6,4 @@ title: "Hello world!"
 
 ## Hey there!
 
-This is my first blog post. 👋
+This is my first blog post. Hello world! 👋
