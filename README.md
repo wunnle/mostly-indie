@@ -1,4 +1,4 @@
-# 🚀 Mostly Indie!
+# Mostly indie
 
 Ranxi's blog about mostly indie games. In development.
 _Have another more specific idea? You may want to check out our vibrant collection of 
