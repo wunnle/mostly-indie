@@ -3,6 +3,7 @@ path: "/wintersale"
 date: "2019-05-04"
 title: "Steam Winter Sale + Local Multiplayer"
 ---
+
 It’s happening– the **third** blog post of the year! One of my resolutions for 2018 is definitely to write here more often…
 
 I’m still playing a lot of games, but I’ve been too lazy too often and writing here usually feels harder than just snapping a picture of my screen to share as an Instagram story every time I start a new game these days.
