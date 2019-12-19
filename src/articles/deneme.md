@@ -1,5 +1,5 @@
 ---
-path: "/broforce"
+path: "/wintersale"
 date: "2019-05-04"
 title: "Steam Winter Sale + Local Multiplayer"
 ---
