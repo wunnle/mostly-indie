@@ -5,4 +5,4 @@ title: "BROFORCE BROFORCE! 🔫"
 ---
 
 
-Sample post about Broforce. 🤜💥🤛 bunu anladık.
+Test post about Broforce. 🤜💥🤛 bunu anladık.
