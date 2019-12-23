@@ -1,8 +1,10 @@
 ---
 path: "/minimetro"
 date: "2016-04-10"
-title: Mini Metro Disasterpeace
+title: "*Mini Metro* + Disasterpeace"
+
 ---
+
 [*Mini Metro*](https://dinopoloclub.com/games/mini-metro/) is addictive. It might look super simple and zen-like at first glance, but does become quite difficult and stressful once you get into it and try to score higher and higher. As an endless high score game, this wouldn’t normally be my cup of tea, but *Mini Metro* manages to keep me (somewhere) on its high score lists almost every day, as it offers some different modes like daily and all-time leaderboards for different cities with their own struggles and it doesn't look like I'll get bored of it anytime soon. <3
 
 ![Paris metro](https://github.com/wunnle/mostly-indie/blob/master/src/images/Paris-1339.gif?raw=true)
