@@ -1,7 +1,7 @@
 ---
 path: "/wintersale"
 date: "2019-05-04"
-title: "Steam Winter Sale + Local Multiplayer"
+title: "Steam Winter Sale Local Multiplayer"
 ---
 
 It’s happening– the **third** blog post of the year! One of my resolutions for 2018 is definitely to write here more often…
