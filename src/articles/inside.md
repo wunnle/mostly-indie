@@ -1,6 +1,6 @@
 ---
 path: "/inside-review"
-date: "2019-05-04"
+date: "2017-01-01"
 title: "INSIDE"
 ---
 ![INSIDE looks like LIMBO](http://mostlyindie.com/wp-content/uploads/2017/01/304430_screenshots_20161226192741_1.jpg)
