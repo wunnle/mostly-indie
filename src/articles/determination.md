@@ -2,6 +2,7 @@
 path: "/determination"
 date: "2016-09-21"
 title: "Determination"
+featuredImg: "https://github.com/wunnle/mostly-indie/raw/master/src/images/determination.jpg"
 ---
 
 These *Undertale* remixes... fill me with determination.
