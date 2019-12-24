@@ -2,7 +2,7 @@
 path: "/determination"
 date: "2016-09-21"
 title: "Determination"
-featuredImg: "/src/images/determination.jpg"
+featuredImg: ../images/determination.jpg
 ---
 
 These *Undertale* remixes... fill me with determination.

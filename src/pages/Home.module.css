@@ -1,0 +1,13 @@
+.homeLinks {
+  width: 900px;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  align-content: center;
+}

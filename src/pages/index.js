@@ -1,7 +1,8 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 
-import PostLink from '../components/post-link'
+import PostLink from '../components/PostLink'
+import styles from './Home.module.css'
 
 const IndexPage = ({
   data: {
@@ -12,7 +13,7 @@ const IndexPage = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
-  return <div>{Posts}</div>
+  return <div className={styles.homeLinks}>{Posts}</div>
 }
 
 export default IndexPage
@@ -28,6 +29,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            featuredImg {
+              childImageSharp {
+                sizes(maxWidth: 630) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
           }
         }
       }

@@ -2,7 +2,7 @@
 path: "/inside-review"
 date: "2017-01-01"
 title: "INSIDE"
-featuredImg: "/src/images/inside.jpg"
+featuredImg: "../images/inside.jpg"
 ---
 ![INSIDE looks like LIMBO](/src/images/insidegame.jpg)
 I got *[INSIDE](https://playdead.com/games/inside/)* during the Steam holiday sale. It is very much like *[LIMBO](https://playdead.com/games/limbo/)* and that’s great, because what else could you ask for?
