@@ -2,7 +2,7 @@
 path: "/minimetro"
 date: "2016-04-10"
 title: "*Mini Metro* + Disasterpeace"
-featuredImg: "src/images/mini-metro.jpg"
+featuredImg: "/src/images/mini-metro.jpg"
 
 ---
 
