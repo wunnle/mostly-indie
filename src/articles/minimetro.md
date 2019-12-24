@@ -2,6 +2,7 @@
 path: "/minimetro"
 date: "2016-04-10"
 title: "*Mini Metro* + Disasterpeace"
+featuredImg: "https://raw.githubusercontent.com/wunnle/mostly-indie/master/src/images/mini-metro.jpg"
 
 ---
 
