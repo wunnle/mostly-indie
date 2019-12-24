@@ -26,3 +26,13 @@
   color: #3b4c56;
   margin-top: 40px;
 }
+
+.content a {
+  text-decoration: none;
+  color: #3c3ce4;
+}
+
+.content img {
+  width: 100%;
+  margin: 10px 0 40px;
+}
