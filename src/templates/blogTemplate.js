@@ -2,6 +2,7 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import snarkdown from 'snarkdown'
 
+import timeSince from '../helpers/humanFriendlyDates'
 import styles from './blogTemplate.module.css'
 
 const Template = ({
@@ -19,7 +20,7 @@ const Template = ({
           className={styles.title}
           dangerouslySetInnerHTML={{ __html: snarkdown(frontmatter.title) }}
         />
-        <p className={styles.date}>{frontmatter.date}</p>
+        <p className={styles.date}>{timeSince(frontmatter.date)}</p>
         <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </div>

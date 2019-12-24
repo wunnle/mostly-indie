@@ -1,6 +1,6 @@
 ---
 path: "/wintersale"
-date: "2019-05-04"
+date: "2019-12-24"
 title: "Steam Winter Sale Local Multiplayer"
 ---
 
