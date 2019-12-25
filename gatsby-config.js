@@ -58,8 +58,17 @@ module.exports = {
               height: 400
             }
           },
+          {
+            resolve: 'gatsby-remark-instagram-embed',
+            options: {
+              width: 320,
+              height: 320
+            }
+          },
           `gatsby-remark-copy-linked-files`,
-          `@weknow/gatsby-remark-twitter`
+          `gatsby-remark-embed-spotify`,
+          `@weknow/gatsby-remark-twitter`,
+          `gatsby-remark-responsive-iframe`
         ]
       }
     },
