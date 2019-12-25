@@ -51,7 +51,15 @@ module.exports = {
               maxWidth: 708
             }
           },
-          `gatsby-remark-copy-linked-files`
+          {
+            resolve: 'gatsby-remark-embed-youtube',
+            options: {
+              width: 800,
+              height: 400
+            }
+          },
+          `gatsby-remark-copy-linked-files`,
+          `@weknow/gatsby-remark-twitter`
         ]
       }
     },
