@@ -7,6 +7,13 @@
   transition: transform 0.2s cubic-bezier(0.18, 0.89, 0.4, 1.03), border-radius 0.2s ease-in;
 }
 
+@media screen and (max-width: 600px) {
+  .link {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
 .link:hover {
   position: relative;
   z-index: 2;
@@ -32,6 +39,13 @@ div.postInfo {
   transition: opacity 0.12s ease-in-out;
 }
 
+@media screen and (max-width: 600px) {
+  div.postInfo {
+    opacity: 1;
+    padding: 120px 10px 10px 10px;
+  }
+}
+
 .link:hover div.postInfo {
   display: block;
   opacity: 1;
@@ -41,11 +55,25 @@ div.postInfo {
   font-weight: 700;
   font-size: 19px;
   padding-bottom: 0;
-  margin-bottom: -2px;
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 600px) {
+  .postTitle {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
 }
 
 .postDate {
   opacity: 0.8;
   font-size: 13px;
   margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .postDate {
+    font-size: 11px;
+  }
 }
