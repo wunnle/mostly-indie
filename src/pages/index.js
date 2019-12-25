@@ -16,6 +16,9 @@ const IndexPage = ({
 
   return (
     <Layout>
+      <div className={styles.tagline}>
+        game reviews and news. but mostly about indies.
+      </div>
       <div className={styles.homeLinks}>{Posts}</div>
     </Layout>
   )
