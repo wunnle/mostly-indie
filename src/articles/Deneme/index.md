@@ -1,0 +1,21 @@
+---
+path: "/test"
+date: "2019-12-24"
+title: Just testing
+featuredImg: "./mini-metro.jpg"
+---
+
+Testing time!
+
+I’m still playing a lot of games, but I’ve been too lazy too often and writing here usually feels harder than just snapping a picture of my screen to share as an Instagram story every time I start a new game these days.
+
+Anyways, **Steam Winter Sale** is here once again to make us poor but happy. During Steam sales, I generally have an equal number of games I DO WANT and games I want other people to want (a.k.a. I recommend), when they are on sale.
+
+![Determination album cover](/src/images/determination.jpg)
+
+![Determination album cover](./mini-metro.jpg)
+
+
+I’ve been playing a lot of multiplayer games this year, so I decided to collect them under a curation list (which is now a thing with the new changes to Steam Curators) to recommend you guys a bunch of games at once, so check it out here.  All of the titles on the list are currently on sale. I named the list Local Multiplayer since I played almost all of these only locally, but most of them will also work online.
+
+Don’t forget to follow my curator page and subscribe to my channel for daily fried egg recipes.
