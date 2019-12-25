@@ -2,7 +2,7 @@
 path: "/wintersale"
 date: "2019-12-24"
 title: Steam Winter Sale Local Multiplayer
-featuredImg: ../images/determination.jpg
+featuredImg: ./crawl.jpg
 ---
 
 It’s happening– the **third** blog post of the year! One of my resolutions for 2018 is definitely to write here more often…

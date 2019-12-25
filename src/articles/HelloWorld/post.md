@@ -2,7 +2,7 @@
 path: "/hello-world"
 date: "2019-05-04"
 title: "Hello world!"
-featuredImg: "../images/determination.jpg"
+featuredImg: "./crawl.jpg"
 
 ---
 

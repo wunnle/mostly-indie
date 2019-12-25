@@ -9,7 +9,9 @@ import styles from './PostLink.module.css'
 const PostLink = ({ post }) => {
   return (
     <Link className={styles.link} to={post.frontmatter.path}>
-      <Img sizes={post.frontmatter.featuredImg.childImageSharp.sizes} />
+      {post.frontmatter.featuredImg && (
+        <Img sizes={post.frontmatter.featuredImg.childImageSharp.sizes} />
+      )}
       <div className={styles.postInfo}>
         <p
           className={styles.postTitle}
