@@ -11,8 +11,6 @@ const Template = ({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
 
-  console.log({ frontmatter })
-
   return (
     <div className="blog-post-container">
       <div className={styles.post}>
