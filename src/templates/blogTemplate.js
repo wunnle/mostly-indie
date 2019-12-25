@@ -2,6 +2,7 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import snarkdown from 'snarkdown'
 
+import Layout from '../components/Layout'
 import timeSince from '../helpers/humanFriendlyDates'
 import styles from './blogTemplate.module.css'
 
@@ -12,16 +13,18 @@ const Template = ({
   const { frontmatter, html } = markdownRemark
 
   return (
-    <div className="blog-post-container">
-      <div className={styles.post}>
-        <h1
-          className={styles.title}
-          dangerouslySetInnerHTML={{ __html: snarkdown(frontmatter.title) }}
-        />
-        <p className={styles.date}>{timeSince(frontmatter.date)}</p>
-        <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
+    <Layout>
+      <div className="blog-post-container">
+        <div className={styles.post}>
+          <h1
+            className={styles.title}
+            dangerouslySetInnerHTML={{ __html: snarkdown(frontmatter.title) }}
+          />
+          <p className={styles.date}>{timeSince(frontmatter.date)}</p>
+          <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 

@@ -1,6 +1,7 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 
+import Layout from '../components/Layout'
 import PostLink from '../components/PostLink'
 import styles from './Home.module.css'
 
@@ -13,7 +14,11 @@ const IndexPage = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
-  return <div className={styles.homeLinks}>{Posts}</div>
+  return (
+    <Layout>
+      <div className={styles.homeLinks}>{Posts}</div>
+    </Layout>
+  )
 }
 
 export default IndexPage
