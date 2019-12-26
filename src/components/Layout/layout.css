@@ -615,3 +615,7 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.gatsby-resp-image-link {
+  margin-bottom: 30px !important;
+}
