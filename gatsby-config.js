@@ -50,6 +50,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              rel: 'nofollow'
+            }
+          },
+          {
             resolve: `gatsby-remark-relative-images`
           },
           {
