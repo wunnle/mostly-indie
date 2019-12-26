@@ -3,10 +3,9 @@ import React from 'react'
 import snarkdown from 'snarkdown'
 
 import Layout from '../components/Layout'
-import timeSince from '../helpers/humanFriendlyDates'
 import styles from './blogTemplate.module.css'
 
-const Template = ({ data }) => {
+const PageTemplate = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
 
@@ -18,7 +17,6 @@ const Template = ({ data }) => {
             className={styles.title}
             dangerouslySetInnerHTML={{ __html: snarkdown(frontmatter.title) }}
           />
-          <p className={styles.date}>{timeSince(frontmatter.date)}</p>
           <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </div>
@@ -26,14 +24,13 @@ const Template = ({ data }) => {
   )
 }
 
-export default Template
+export default PageTemplate
 
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         path
         title
       }

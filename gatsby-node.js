@@ -4,6 +4,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
   const blogPostTemplate = path.resolve(`src/templates/blogTemplate.js`)
+  const pageTemplate = path.resolve(`src/templates/pageTemplate.js`)
 
   const result = await graphql(`
     {
@@ -13,6 +14,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       ) {
         edges {
           node {
+            fileAbsolutePath
             frontmatter {
               path
             }
@@ -28,11 +30,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
+  console.log(result.data)
+
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
-      component: blogPostTemplate,
-      context: {}, // additional data can be passed via context
+      component: node.fileAbsolutePath.match(/\/md-pages\//i)
+        ? pageTemplate
+        : blogPostTemplate,
+      context: {}
     })
   })
 }
