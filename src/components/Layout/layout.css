@@ -619,3 +619,9 @@ pre tt:after {
 .gatsby-resp-image-link {
   margin-bottom: 30px !important;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
