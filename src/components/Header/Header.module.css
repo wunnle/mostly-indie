@@ -31,3 +31,11 @@
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.nav a:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.nav a + a {
+  margin-left: 18px;
+}
