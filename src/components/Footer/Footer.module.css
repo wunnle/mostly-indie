@@ -18,11 +18,20 @@
 
 .contact {
   margin-left: auto;
+  display: flex;
+}
+
+.contact a + a {
+  margin-left: 18px;
 }
 
 .contact img {
   opacity: 0.3;
   margin: 0;
+}
+
+.contact img:hover {
+  opacity: 0.5;
 }
 
 .footer a {
