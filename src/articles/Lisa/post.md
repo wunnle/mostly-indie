@@ -1,7 +1,7 @@
 ---
 path: "/lisa"
 date: "2015-10-15"
-title: *LISA*: Painful & Joyful
+title: *LISA:* Painful & Joyful
 featuredImg: ./crawl.jpg
 ---
 The blog has been very inactive lately, so here is a game with annoying unpopularity: *[LISA](http://www.lisatherpg.com/index.html)*
