@@ -1,6 +1,6 @@
 # Embed
 
-* Twitter
-* Youtube
-* Instagram
-* Spotify
+- [x] Twitter
+- [x] Youtube
+- [x] Instagram
+- [x] Spotify

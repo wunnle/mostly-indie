@@ -1,7 +1,7 @@
 ---
 path: "/inside-review"
 date: "2017-01-01"
-title: "INSIDE"
+title: "*INSIDE*"
 featuredImg: "./inside.jpg"
 ---
 ![INSIDE looks like LIMBO](./insidegame.jpg)
