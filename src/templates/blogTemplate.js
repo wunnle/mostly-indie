@@ -15,7 +15,7 @@ const Template = ({ data }) => {
     <Layout>
       <SEO
         title={frontmatter.title}
-        image={window.location.origin + frontmatter.featuredImg.childImageSharp.sizes.src}
+        image={frontmatter.featuredImg.childImageSharp.sizes.src}
         description={excerpt}
       />
       <div className="blog-post-container">
