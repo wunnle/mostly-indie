@@ -3,6 +3,7 @@ path: "/baba-is-sign"
 date: "2020-01-12"
 title: "Baba is Sign"
 featuredImg: "./Baba.jpg"
+sharedOnTwitter: true
 ---
   [*Baba is You*](https://hempuli.com/baba/) was my game of the year. It's a mind-blowing puzzle game and it has cute graphics. But beyond that, it's also the perfect game for a linguistic analysis! 
   
