@@ -1,8 +1,8 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-import logo from '../Header/logo.png'
 import styles from './Footer.module.css'
+import githubIcon from './github.svg'
 import steamIcon from './steam.svg'
 import twitterIcon from './twitter.svg'
 
@@ -10,6 +10,13 @@ const Footer = () => (
   <footer className={styles.footer}>
     <Link to="/">Mostly Indie</Link>
     <div className={styles.contact}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/wunnle/mostly-indie"
+      >
+        <img src={githubIcon} alt="github" />
+      </a>
       <a
         target="_blank"
         rel="noopener noreferrer"
