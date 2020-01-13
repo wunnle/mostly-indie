@@ -1,7 +1,7 @@
 # Mostly indie
 
-Ranxi's blog about mostly indie games. In development.
+Ranxi's blog about mostly indie video games.
 
 
-_Visit the dev version:_
+_Visit the site:_
 [http://mostlyindie.com/](http://mostlyindie.com/)
