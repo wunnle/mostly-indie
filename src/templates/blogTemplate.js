@@ -3,15 +3,21 @@ import React from 'react'
 import snarkdown from 'snarkdown'
 
 import Layout from '../components/Layout'
+import SEO from '../components/seo'
 import timeSince from '../helpers/humanFriendlyDates'
 import styles from './blogTemplate.module.css'
 
 const Template = ({ data }) => {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, excerpt } = markdownRemark
 
   return (
     <Layout>
+      <SEO
+        title={frontmatter.title}
+        image={window.location.origin + frontmatter.featuredImg.childImageSharp.sizes.src}
+        description={excerpt}
+      />
       <div className="blog-post-container">
         <div className={styles.post}>
           <h1
@@ -32,10 +38,18 @@ export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      excerpt
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        featuredImg {
+          childImageSharp {
+            sizes(maxWidth: 630) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
   }
