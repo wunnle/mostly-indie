@@ -3,6 +3,7 @@ path: "/determination"
 date: "2016-09-21"
 title: "Determination"
 featuredImg: ./determination.jpg
+sharedOnTwitter: true
 ---
 
 These *Undertale* remixes... fill me with determination.

@@ -4,12 +4,18 @@ import snarkdown from 'snarkdown'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import getTwitterSearchLink from '../helpers/getTwitterLink'
 import timeSince from '../helpers/humanFriendlyDates'
 import styles from './blogTemplate.module.css'
+import twitterIcon from './twitter.svg'
 
 const Template = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html, excerpt } = markdownRemark
+
+  const { sharedOnTwitter, path } = frontmatter
+
+  console.log({ sharedOnTwitter, path })
 
   return (
     <Layout>
@@ -26,6 +32,16 @@ const Template = ({ data }) => {
           />
           <p className={styles.date}>{timeSince(frontmatter.date)}</p>
           <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
+          {sharedOnTwitter && (
+            <a
+              className={styles.twitterLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={getTwitterSearchLink(path)}
+            >
+              <img src={twitterIcon} alt="twitter" /> Discuss on Twitter
+            </a>
+          )}
         </div>
       </div>
     </Layout>
@@ -43,6 +59,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        sharedOnTwitter
         featuredImg {
           childImageSharp {
             sizes(maxWidth: 630) {

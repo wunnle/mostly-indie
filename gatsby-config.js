@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mostly Indie`,
-    description: `A blog about game reviews and news. And mostly about indies.
-    `,
+    description: `A blog about game reviews and news. And mostly about indies.`,
     author: `@gatsbyjs`
   },
   plugins: [
