@@ -36,3 +36,21 @@
   width: 100%;
   margin: 10px 0 40px;
 }
+
+.twitterLink {
+  display: flex;
+  border-top: 1px solid #dedede;
+  padding: 30px 10px 0;
+  color: #3c3ce4;
+  text-decoration: none;
+}
+
+.twitterLink:hover {
+  text-decoration: underline;
+}
+
+.twitterLink img {
+  width: 28px;
+  margin-right: 10px;
+  margin-left: -4px;
+}
