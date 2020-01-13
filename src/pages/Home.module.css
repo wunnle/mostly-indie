@@ -40,4 +40,10 @@
   .tagline {
     width: 100%;
   }
+
+  .tagline {
+    padding: 0 16px;
+    line-height: 1.2em;
+    padding-right: 40px;
+  }
 }
