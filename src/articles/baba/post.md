@@ -8,7 +8,7 @@ featuredImg: "./Baba.jpg"
   
   ![Rose is red, violet is blue, Baba is you](./rose-is-red.png)
 
-This might not often be relevant when talking about games; but I studied linguistics in college and that was a while ago... Also, linguistic theories can get quite complicated, even when you didn't forget about half of them. So I'll try to keep it as simple as possible.
+This might not often be relevant when talking about games; but I studied linguistics in college, and that was a while ago... Also, linguistic theories can get quite complicated, even when you didn't forget about half of them. So I'll try to keep it as simple as possible.
 
 *Baba is You* is essentially a sokoban game, but instead of crates, you get to move blocks of texts that constitute the rules for the current level, or what those text blocks **represent** in the game world, i.e. you can push a block of text that says `rock` as well as an image of a rock on the screen. 
 
