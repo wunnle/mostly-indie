@@ -10,6 +10,7 @@ import styles from './blogTemplate.module.css'
 import twitterIcon from './twitter.svg'
 
 const Template = ({ data }) => {
+  const { websiteUrl } = data.site.siteMetadata
   const { markdownRemark } = data
   const { frontmatter, html, excerpt } = markdownRemark
 
@@ -21,7 +22,7 @@ const Template = ({ data }) => {
     <Layout>
       <SEO
         title={frontmatter.title}
-        image={frontmatter.featuredImg.childImageSharp.sizes.src}
+        image={websiteUrl + frontmatter.featuredImg.childImageSharp.sizes.src}
         description={excerpt}
       />
       <div className="blog-post-container">
@@ -52,6 +53,14 @@ export default Template
 
 export const pageQuery = graphql`
   query($path: String!) {
+    site {
+      siteMetadata {
+        title
+        description
+        author
+        websiteUrl
+      }
+    }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       excerpt

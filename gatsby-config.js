@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Mostly Indie`,
     description: `A blog about game reviews and news. And mostly about indies.`,
-    author: `@gatsbyjs`
+    author: `@ranxi`,
+    websiteUrl: 'https://mostlyindie.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
