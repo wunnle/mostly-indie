@@ -3,7 +3,7 @@ path: "/alba"
 date: "2020-12-15"
 title: "Alba and Wholesome Games"
 featuredImg: "./Alba.jpg"
-sharedOnTwitter: false
+sharedOnTwitter: true
 ---
 
 I spent most of my free time in 2020 chilling at the beach, gardening, and clothes shopping — in *Animal Crossing: New Horizons*. Considering the popularity of *ACNH*, as well as indie games like [*A Short Hike*](https://ashorthike.com/) and [*Mutazione*](https://mutazionegame.com/) throughout this year, it seems like I cannot be the only one who wanted more **wholesomeness** from games in 2020?
