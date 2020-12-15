@@ -18,7 +18,9 @@ Without spoiling the game, *Alba* is about environmental activism, but making a 
 
 ![A picture of an owl in the game](./owl.jpg)
 
-An important part of the gameplay is taking pictures of the animals on the island, and as with the other tasks, you don’t have to catalog every single animal on the island to complete the game, but this was my favorite thing to do in the game. You can also picture other things and save the photos on your phone (which will be in your pictures folder on your computer, I discovered this two days after finishing the game). When you catalog an animal, you can also use your pictures to replace old signs around the island, but the game will pick a default image for every animal, even if your picture is cooler. I think it’d be great if I was able to choose which picture I wanted put on a sign, but I can imagine this would be difficult to implement because the game has to know I’m not putting this picture up on a sign about an owl:
+An important part of the gameplay is taking pictures of the animals on the island, and as with the other tasks, you don’t have to catalog every single animal on the island to complete the game, but this was my favorite thing to do in the game. You can also picture other things and save the photos on your phone (which will be in your pictures folder on your computer, I discovered this two days after finishing the game). 
+
+When you picture and catalog an animal, you can also use your photos to replace old signs around the island, but the game will pick a default image for every animal, even if your picture is cooler. I think it’d be great if I was able to choose which picture I wanted put on a sign, but I can imagine this would be difficult to implement because the game has to know I’m not putting this picture up on a sign about an owl:
 
 ![You can basically make a picture of anything](./not_an_owl.jpg)
 
