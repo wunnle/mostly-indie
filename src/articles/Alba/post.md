@@ -8,7 +8,7 @@ sharedOnTwitter: true
 
 I spent most of my free time in 2020 chilling at the beach, gardening, and clothes shopping — in *Animal Crossing: New Horizons*. Considering the popularity of *ACNH*, as well as indie games like [*A Short Hike*](https://ashorthike.com/) and [*Mutazione*](https://mutazionegame.com/) throughout this year, it seems like I cannot be the only one who wanted more **wholesomeness** from games in 2020?
 
-This post is not a rant on violent games, and it’s also not a love letter to *ACNH*. While I continue to enjoy *ACNH*, the new little game from [Ustwo games](https://www.ustwogames.co.uk/), *Alba: A Wildlife Adventure* is probably the most feel-good game I ever played. I also loved the studio’s previous game, *Assemble with Care* which also came out earlier this year (the devs are also known for *Monument Valley*, btw).
+This post is not a rant on violent games, and it’s also not a love letter to *ACNH*. While I continue to enjoy *ACNH*, the new little game from [Ustwo games](https://www.ustwogames.co.uk/), *Alba: A Wildlife Adventure* is probably the most feel-good game I ever played. I also loved the studio’s previous game, *Assemble with Care* which came out earlier this year (the devs are also known for *Monument Valley*, btw).
 
 ![Alba: A Wildlife Adventure](./Alba.jpg)
 
