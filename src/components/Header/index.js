@@ -27,7 +27,7 @@ const Header = () => (
     render={data => {
       return (
         <header className={styles.header}>
-          <Link to="/">
+          <Link to="/" class="h-card" rel="me">
             <img className={styles.logo} src={logo} alt="Mostly Indie" />
           </Link>
           <nav className={styles.nav}>

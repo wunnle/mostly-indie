@@ -9,7 +9,9 @@ import twitterIcon from './twitter.svg'
 
 const Footer = () => (
   <footer className={styles.footer}>
-    <Link to="/">Mostly Indie</Link>
+    <Link to="/" class="h-card" rel="me">
+      Mostly Indie
+    </Link>
     <div className={styles.contact}>
       <a
         target="_blank"
@@ -36,8 +38,12 @@ const Footer = () => (
         <img src={twitchIcon} alt="twitch" />
       </a>
       <div style={{ display: 'none' }}>
-        <a href="https://github.com/mostlyindie" rel="me">https://github.com/mostlyindie</a>
-        <a href="mailto:stopsinging@gmail.com" rel="me">stopsinging@gmail.com</a>
+        <a href="https://github.com/mostlyindie" rel="me">
+          https://github.com/mostlyindie
+        </a>
+        <a href="mailto:stopsinging@gmail.com" rel="me">
+          stopsinging@gmail.com
+        </a>
       </div>
     </div>
   </footer>
