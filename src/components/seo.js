@@ -78,7 +78,10 @@ function SEO({ description, lang, meta, title, image }) {
           content: image
         }
       ].concat(meta)}
-    />
+    >
+      <link rel="webmention" href="https://webmention.io/mostlyindie.com/webmention" />
+      <link rel="pingback" href="https://webmention.io/mostlyindie.com/xmlrpc" />
+    </Helmet>
   )
 }
 

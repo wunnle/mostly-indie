@@ -47,6 +47,19 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-webmention`,
+      options: {
+        username: 'mostlyindie.com',
+        identity: {
+          twitter: 'ranxi'
+        },
+        mentions: true,
+        pingbacks: true,
+        domain: 'mostlyindie.com',
+        token: process.env.GATSBY_WEBMENTIONS_TOKEN
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
