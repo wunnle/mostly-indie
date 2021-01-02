@@ -25,8 +25,6 @@ const Header = () => (
       }
     `}
     render={data => {
-      console.log({ data })
-
       return (
         <header className={styles.header}>
           <Link to="/">
