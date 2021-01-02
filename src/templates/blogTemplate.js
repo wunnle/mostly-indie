@@ -14,9 +14,7 @@ const Template = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html, excerpt } = markdownRemark
 
-  const { sharedOnTwitter, path } = frontmatter
-
-  console.log({ sharedOnTwitter, path })
+  const { sharedOnTwitter, path, isoDate } = frontmatter
 
   return (
     <Layout>
@@ -28,9 +26,20 @@ const Template = ({ data }) => {
       <div className="blog-post-container">
         <div className={styles.post}>
           <h1
-            className={styles.title}
+            className={[styles.title, 'p-name'].join(' ')}
             dangerouslySetInnerHTML={{ __html: snarkdown(frontmatter.title) }}
           />
+          <div style={{ display: 'none' }}>
+            <p className={['p-author', 'h-card'].join(' ')} rel="author">
+              Ranxi
+            </p>
+            <time className="dt-published" dateTime={isoDate}>
+              {isoDate}
+            </time>
+            <a className="u-url" href={`${websiteUrl}${path}`}>
+              Link to the post
+            </a>
+          </div>
           <p className={styles.date}>{timeSince(frontmatter.date)}</p>
           <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
           {sharedOnTwitter && (
@@ -66,6 +75,7 @@ export const pageQuery = graphql`
       excerpt
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        isoDate: date(formatString: "YYYY-MM-DD HH:MM:SS")
         path
         title
         sharedOnTwitter

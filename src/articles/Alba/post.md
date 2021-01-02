@@ -8,7 +8,7 @@ sharedOnTwitter: true
 
 I spent most of my free time in 2020 chilling at the beach, gardening, and clothes shopping — in *Animal Crossing: New Horizons*. Considering the popularity of *ACNH*, as well as indie games like [*A Short Hike*](https://ashorthike.com/) and [*Mutazione*](https://mutazionegame.com/) throughout this year, it seems like I cannot be the only one who wanted more **wholesomeness** from games in 2020?
 
-This post is not a rant on violent games, and it’s also not a love letter to *ACNH*. While I continue to enjoy *ACNH*, the new little game from [Ustwo games](https://www.ustwogames.co.uk/), *Alba: A Wildlife Adventure* is probably the most feel-good game I ever played. I also loved the studio’s previous game, *Assemble with Care* which also came out earlier this year (the devs are also known for *Monument Valley*, btw).
+This post is not a rant on violent games, and it’s also not a love letter to *ACNH*. While I continue to enjoy *ACNH*, the new little game from [Ustwo games](https://www.ustwogames.co.uk/), *Alba: A Wildlife Adventure* is probably the most feel-good game I ever played. I also loved the studio’s previous game, *Assemble with Care* which came out earlier this year (the devs are also known for *Monument Valley*, btw).
 
 ![Alba: A Wildlife Adventure](./Alba.jpg)
 
@@ -18,9 +18,9 @@ Without spoiling the game, *Alba* is about environmental activism, but making a 
 
 ![A picture of an owl in the game](./owl.jpg)
 
-An important part of the gameplay is taking pictures of the animals on the island, and as with the other tasks, you don’t have to catalog every single animal on the island to complete the game, but this was my favorite thing to do in the game. You can also picture other things and save the photos on your phone (which will be in your pictures folder on your computer, I discovered this two days after finishing the game). 
+An important part of the gameplay is taking pictures of the animals on the island, and as with the other tasks, you don’t have to get it 100% done, or catalog every single animal on the island to complete the game, but taking these pictures was my favorite thing to do in the game. You can also picture other things and save the photos on your phone (which will be in your pictures folder on your computer and I discovered this two days after finishing the game). 
 
-When you picture and catalog an animal, you can also use your photos to replace old signs around the island, but the game will pick a default image for every animal, even if your picture is cooler. I think it’d be great if I was able to choose which picture I wanted put on a sign, but I can imagine this would be difficult to implement because the game has to know I’m not putting this picture up on a sign about an owl:
+When you picture and catalog an animal, you can use your photos to replace old signs around the island, but the game will pick a default image for every animal, even if your picture is cooler. I think it’d be great if I was able to choose which picture I wanted put on a sign, but I can imagine this would be difficult to implement because the game has to know I’m not putting this picture up on a sign about an owl:
 
 ![You can basically make a picture of anything](./not_an_owl.jpg)
 

@@ -18,19 +18,19 @@ const Footer = () => (
       >
         <img src={githubIcon} alt="github" />
       </a>
-      <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ranxi">
+      <a target="_blank" rel="noopener noreferrer me" href="https://twitter.com/ranxi">
         <img src={twitterIcon} alt="twitter" />
       </a>
       <a
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener noreferrer me"
         href="https://store.steampowered.com/curator/8260569-Mostly-Indie/"
       >
         <img src={steamIcon} alt="steam" />
       </a>
       <a
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener noreferrer me"
         href="https://www.twitch.tv/mostlyindie/"
       >
         <img src={twitchIcon} alt="twitch" />
