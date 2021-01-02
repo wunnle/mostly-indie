@@ -24,7 +24,7 @@ const Template = ({ data }) => {
         description={excerpt}
       />
       <div className="blog-post-container">
-        <div className={styles.post}>
+        <div className={[styles.post, 'h-entry'].join(' ')}>
           <h1
             className={[styles.title, 'p-name'].join(' ')}
             dangerouslySetInnerHTML={{ __html: snarkdown(frontmatter.title) }}
@@ -41,7 +41,10 @@ const Template = ({ data }) => {
             </a>
           </div>
           <p className={styles.date}>{timeSince(frontmatter.date)}</p>
-          <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
+          <div
+            className={[styles.content, 'e-content', 'p-name'].join(' ')}
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
           {sharedOnTwitter && (
             <a
               className={styles.twitterLink}
