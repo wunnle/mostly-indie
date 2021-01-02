@@ -35,6 +35,10 @@ const Footer = () => (
       >
         <img src={twitchIcon} alt="twitch" />
       </a>
+      <div style={{ display: 'none' }}>
+        <a href="https://github.com/mostlyindie" rel="me">https://github.com/mostlyindie</a>
+        <a href="mailto:stopsinging@gmail.com" rel="me">stopsinging@gmail.com</a>
+      </div>
     </div>
   </footer>
 )
