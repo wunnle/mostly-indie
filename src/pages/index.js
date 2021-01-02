@@ -3,6 +3,7 @@ import React from 'react'
 
 import Layout from '../components/Layout'
 import PostLink from '../components/PostLink'
+import SEO from '../components/seo'
 import styles from './Home.module.css'
 
 const IndexPage = ({
@@ -16,6 +17,7 @@ const IndexPage = ({
 
   return (
     <Layout>
+      <SEO />
       <div className={styles.tagline}>
         game reviews and news. but mostly about indies.
       </div>
