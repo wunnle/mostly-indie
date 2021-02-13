@@ -8,7 +8,7 @@ sharedOnTwitter: true
 
 Minimalist strategy and high score games —I need more of them. I’m talking about games like *Mini Metro* (see my older post about it [here](https://mostlyindie.com/minimetro)): simple mechanics, minimalist design, relaxing music. 
 
-I still go back to *Mini Metro* every once in a while, but when [*ISLANDERS*](https://store.steampowered.com/app/1046030/ISLANDERS/) came out in 2019, I  played it non-stop for months. *ISLANDERS* is a lot like *Mini Metro*, but the city-building high score gameplay makes the game a little bit harder to go back to after taking a break from it because you need to remember how many points the buildings get and which buildings work together. I guess you can’t make a city-building game as minimalist as *Mini Metro*, in which you literally draw lines to connect a bunch of shapes to each other, but building a beautiful landscape by just placing pieces together is also super relaxing and addictive.
+I still go back to *Mini Metro* every once in a while, and when [*ISLANDERS*](https://store.steampowered.com/app/1046030/ISLANDERS/) came out in 2019, I  played it non-stop for months. *ISLANDERS* is a lot like *Mini Metro*, but the city-building high score gameplay makes the game a little bit harder to go back to after taking a break from it because you need to remember how many points the buildings get and which buildings work together. I guess you can’t make a city-building game as minimalist as *Mini Metro*, in which you literally draw lines to connect a bunch of shapes to each other, but still, building a beautiful landscape by just placing pieces together is also super relaxing and addictive.
 
 ![Tiles in Dorfromantik](./Dorfromantik.jpg)
 
