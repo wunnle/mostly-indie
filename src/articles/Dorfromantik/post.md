@@ -16,7 +16,7 @@ The upcoming game [*Dorfromantik*](https://store.steampowered.com/app/1455840/Do
 
 ![Highscore in Dorfromantik demo](./highscore.jpg)
 
-The scoring system in *Dorfromantik* is super simple but brilliant (it took me a while to fully understand it when I played the demo, so if there’s anything I still get wrong, just let me know!): You get 10 points for every edge of a tile you place that matches any adjacent tile. Some tiles also come with quests, which give you additional points and adds more tiles to your stack when they are completed, so you can keep playing as long as you keep completing quests. This scoring system makes the game perfectly minimalist and super easy to get into. And unlike *ISLANDERS*, you don’t really need to be playing *Dorfromantik* for a long time to beat your high score.
+The scoring system in *Dorfromantik* is super simple but brilliant (it took me a while to fully understand it when I played the demo, so if there’s anything I still get wrong, just let me know!): You get 10 points for every edge of a tile you place that matches any adjacent tile. Some tiles also come with quests, which give you additional points and add more tiles to your stack when they are completed, so you can keep playing as long as you keep completing quests. This scoring system makes the game perfectly minimalist and super easy to get into. And unlike *ISLANDERS*, you don’t really need to be playing *Dorfromantik* for a long time to beat your high score.
 
 
 I’m already obsessed with the [demo version](https://store.steampowered.com/app/1455840/Dorfromantik/). Right now it sadly allows you to only play until you place 85 tiles, but it's also getting an early-access release on Steam on March 25, and I can’t wait to play more of it!
