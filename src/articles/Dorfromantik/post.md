@@ -1,8 +1,8 @@
 ---
 path: "/dorfromantik"
 date: "2021-02-13"
-title: "Dorfromantik is the game I needed"
-featuredImg: "./Dorfromantik.jpg"
+title: "Dorfromantik: A game I needed"
+featuredImg: "./Dorfromantik_main.jpg"
 sharedOnTwitter: true
 ---
 
