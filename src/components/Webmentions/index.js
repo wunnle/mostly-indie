@@ -31,7 +31,7 @@ const Webmentions = ({ mentions }) => {
             .join(', ')}
         </p>
       </hgroup>
-      {mentions.filter(m => m.wpProperty !=== 'like-of').map(m => (
+      {mentions.filter(m => m.wpProperty !== 'like-of').map(m => (
         <div key={m.wmId} className={styles.mention}>
           <div className={styles.profilePhotoHolder}>
             <img
