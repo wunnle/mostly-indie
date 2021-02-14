@@ -12,7 +12,7 @@ const Webmentions = ({ mentions }) => {
   const replyCount = mentions.filter(m => m.wmProperty === 'in-reply-to').length
   const postCount = mentions.filter(m => m.wmProperty === 'repost-of').length
 
-  if (mentions.length === 0) {
+  if (mentions.filter(m => m.wmProperty !== 'like-of').length === 0) {
     return null
   }
 
