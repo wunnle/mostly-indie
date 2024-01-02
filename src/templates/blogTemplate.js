@@ -4,14 +4,15 @@ import snarkdown from 'snarkdown'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import Webmentions from '../components/Webmentions'
 import getTwitterSearchLink from '../helpers/getTwitterLink'
 import timeSince from '../helpers/humanFriendlyDates'
 import styles from './blogTemplate.module.css'
 import twitterIcon from './twitter.svg'
 
-const Template = ({ data }) => {
+const Template = ({ data, pageContext }) => {
   const { websiteUrl } = data.site.siteMetadata
-  const { markdownRemark } = data
+  const { markdownRemark, mentions } = data
   const { frontmatter, html, excerpt } = markdownRemark
 
   const { sharedOnTwitter, path, isoDate } = frontmatter
@@ -24,7 +25,7 @@ const Template = ({ data }) => {
         description={excerpt}
       />
       <div className="blog-post-container">
-        <div className={styles.post}>
+        <div className={[styles.post, 'h-entry'].join(' ')}>
           <h1
             className={[styles.title, 'p-name'].join(' ')}
             dangerouslySetInnerHTML={{ __html: snarkdown(frontmatter.title) }}
@@ -41,7 +42,11 @@ const Template = ({ data }) => {
             </a>
           </div>
           <p className={styles.date}>{timeSince(frontmatter.date)}</p>
-          <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
+          <div
+            className={[styles.content, 'e-content', 'p-name'].join(' ')}
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+          <Webmentions mentions={mentions.nodes} />
           {sharedOnTwitter && (
             <a
               className={styles.twitterLink}
@@ -61,7 +66,7 @@ const Template = ({ data }) => {
 export default Template
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query($path: String!, $permalink: String!) {
     site {
       siteMetadata {
         title
@@ -85,6 +90,29 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpSizes
             }
           }
+        }
+      }
+    }
+    mentions: allWebMentionEntry(
+      filter: { wmTarget: { eq: $permalink } }
+      sort: { fields: wmReceived, order: ASC }
+    ) {
+      nodes {
+        wmTarget
+        wmProperty
+        wmReceived(formatString: "MMMM DD, YYYY")
+        wmId
+        type
+        url
+        likeOf
+        author {
+          url
+          type
+          photo
+          name
+        }
+        content {
+          text
         }
       }
     }
