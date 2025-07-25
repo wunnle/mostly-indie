@@ -1,1 +1,5 @@
-
+![Photo of the printed newspaper](./print-newspaper.jpg)
+![Newspaper page 1](./Newspaper-1.png)
+![Newspaper page 2](./Newspaper-2.png)
+![Newspaper page 3](./Newspaper-3.png)
+![Newspaper page 4](./Newspaper-4.png)
